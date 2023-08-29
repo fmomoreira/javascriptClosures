@@ -6,17 +6,7 @@ Uma closure é a combinação de uma função com as referências ao estado que 
 # Escopo léxico
 Considere a função abaixo:
 
-<script>
-  function init() {
-    var name = "Mozilla"; // name é uma variável local criada pelo init
-    function displayName() {
-      // displayName() é a função interna, uma closure
-      console.log(name); // usa a variável declarada na função pai
-    }
-    displayName();
-  }
-  init();
-</script>
+<img src="https://codepontotech.com.br/imagensCode/closureJs.png" alt="image of code">
 
 
 A função init() cria uma variável local chamada name, e depois define uma função chamada displayName(). displayName() é uma função aninhada (uma closure) — ela é definida dentro da função init(), e está disponivel apenas dentro do corpo daquela função. Diferente de init(), displayName() não tem variáveis locais próprias, e ao invés disso reusa a variável name declarada na função pai.
