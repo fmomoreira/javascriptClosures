@@ -15,3 +15,39 @@ Rode o código e veja que isso funciona. Este é um exemplo de escopo léxico: e
 
 Saiba mais conferindo diretamente da documentação: 
 Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Closures
+
+
+#Desafio
+
+Neste repositório, você encontra os arquivos que fizemos em aula.
+
+Você deve implementar um botal dentro da area onde estao os itens do carrinho e o total do carrinho, após clicar neste botão, o usuário será redirecionado para a pagina  de "dados para entrega". 
+
+A tela deve ser dividida ao meio, ao lado esquedo, deve ter o resumo do pedido com o total, do lado direito, deve ter um formulario de "dados para entrega" e um botão de "Finalizar pagamento". No mobile deve aparecer primeiro o formulado de dados para entrega, e abaixo no final o resumo do pedido e um botão, "Finalizar pagamento".
+
+
+#Critério de aceite
+
+-Na tela inicial, quando o carrinho estiver vazio, deve exibir a seguinte menssagem, "Carrinho vazio"
+
+-O sistema deve guardar as informações do carrinho para ser exibidas na pagina de "dados para entrega", caso o usuario volte a pagina, os itens do carrinho deve estao la no carrinho ainda.
+
+-O usuario deve conseguir ver na tela dados para entrega o resumo do pedido
+
+-O sistema deve ser responsivo
+
+-Ao final deve ser criado um repositorio e usar o github pages para hospedar seu projeto, gerar uma url de acesso.
+
+#Entregas adicionais
+
+- Exibir ao lado do dropdown um iconi com o numero de items no carrinho.
+- Implementar a opção de remover item do carrinho
+- implementar a opção de alterar quantidade de um item para mais ou menos, se 0, remova o item do carrinho
+- no formulario de cadastro de dados para entrega implementar validação nos inputs e nao enviar o formulario se nao estiver tudo validado
+
+
+#Boa sorte, bons estudos!
+
+
+
+
