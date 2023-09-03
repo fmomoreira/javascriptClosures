@@ -17,6 +17,14 @@ function carrinho(){
             })
         }
         atualizarCarrinho();
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Produto adicionado na sacola!',
+            showConfirmButton: false,
+            timer:3000
+        })
+
     }
 
     function calcularTotal() {
