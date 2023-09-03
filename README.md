@@ -17,16 +17,16 @@ Saiba mais conferindo diretamente da documentação:
 Link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Closures
 
 
-#Desafio
+<h1>Desafio</h1>
 
 Neste repositório, você encontra os arquivos que fizemos em aula.
 
-Você deve implementar um botal dentro da area onde estao os itens do carrinho e o total do carrinho, após clicar neste botão, o usuário será redirecionado para a pagina  de "dados para entrega". 
+Você deve implementar um botal dentro da area onde estao os items do carrinho e o total do carrinho, após clicar neste botão, o usuário será redirecionado para a pagina  de "dados para entrega". 
 
 A tela deve ser dividida ao meio, ao lado esquedo, deve ter o resumo do pedido com o total, do lado direito, deve ter um formulario de "dados para entrega" e um botão de "Finalizar pagamento". No mobile deve aparecer primeiro o formulado de dados para entrega, e abaixo no final o resumo do pedido e um botão, "Finalizar pagamento".
 
 
-#Critério de aceite
+<h2>Critério de aceite</h2>
 
 -Na tela inicial, quando o carrinho estiver vazio, deve exibir a seguinte menssagem, "Carrinho vazio"
 
@@ -46,7 +46,7 @@ A tela deve ser dividida ao meio, ao lado esquedo, deve ter o resumo do pedido c
 - no formulario de cadastro de dados para entrega implementar validação nos inputs e nao enviar o formulario se nao estiver tudo validado
 
 
-#Boa sorte, bons estudos!
+<h3>Boa sorte, bons estudos!</h3>
 
 
 
